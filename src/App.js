@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/signup" element={<Signup />} />
-        <Route path="/personages" element={<Personage />} />
+        <Route path="/personage" element={<Personage />} />
         <Route path="/comics/:id" element={<Comics />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
